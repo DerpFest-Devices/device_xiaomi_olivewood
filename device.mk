@@ -389,6 +389,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# Force enable voLTE, viLTE and voWIFI
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.dbg.ims_volte_enable=1 \
+	persist.dbg.volte_avail_ovr=1 \
+	persist.dbg.vt_avail_ovr=1 \
+	persist.dbg.wfc_avail_ovr=1 
+ 
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4 \
