@@ -1,10 +1,14 @@
 [
   {
-    "repository": "proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi"
+    "repository" : "shield44/vendor_xiaomi_olivewood",
+    "target_path": "vendor/xiaomi/olivewood",
+    "remote"     : "gitlab",
+    "branch"     : "eleven"
   },
   {
-    "repository": "android_kernel_xiaomi_olivewood",
-    "target_path": "kernel/xiaomi/sdm439"
+    "repository" : "PixelPlusUI-Devices/kernel_xiaomi_olivewood",
+    "target_path": "kernel/xiaomi/olivewood",
+    "remote"     : "github",
+    "branch"     : "eleven"
   }
 ]
